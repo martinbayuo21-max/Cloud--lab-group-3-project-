@@ -1,138 +1,181 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Contact — Cloud Computing Group 3</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact — Cloud Computing Group 3</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="logo">Cloud Lab</div>
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html" class="nav-link">Home</a></li>
-          <li><a href="about.html" class="nav-link">About</a></li>
-          <li><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="contact-page">
-    <section class="contact-hero container">
-      <p class="eyebrow">Group 03</p>
-      <h1>Cloud Computing Project</h1>
-      <p class="lead">Meet the members of Cloud Computing Group 03.</p>
-      <div class="hero-chips" aria-label="Contact page highlights">
-        <span>Swipe on mobile</span>
-        <span>Arrow buttons on desktop</span>
-        <span>One card in focus</span>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">Cloud Lab</div>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          <span class="hamburger"></span>
+        </button>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <section class="container carousel-section" aria-label="Team member contact carousel">
-      <div class="carousel-header">
-        <div>
-          <h2>Member Directory</h2>
-          <p>Browse the team cards horizontally. The active card stays centered while the next and previous cards peek
-            in on the sides.</p>
+    <main class="contact-page">
+      <section class="contact-hero container">
+        <p class="eyebrow">Group 03</p>
+        <h1>Cloud Computing Project</h1>
+        <p class="lead">Meet the members of Cloud Computing Group 03.</p>
+        <div class="hero-chips" aria-label="Contact page highlights">
+          <span>Swipe on mobile</span>
+          <span>Arrow buttons on desktop</span>
+          <span>One card in focus</span>
         </div>
-        <div class="carousel-actions">
-          <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Previous member">‹</button>
-          <button class="carousel-arrow" type="button" data-carousel-next aria-label="Next member">›</button>
+      </section>
+
+      <section
+        class="container carousel-section"
+        aria-label="Team member contact carousel"
+      >
+        <div class="carousel-header">
+          <div>
+            <h2>Member Directory</h2>
+            <p>
+              Browse the team cards horizontally. The active card stays centered
+              while the next and previous cards peek in on the sides.
+            </p>
+          </div>
+          <div class="carousel-actions">
+            <button
+              class="carousel-arrow"
+              type="button"
+              data-carousel-prev
+              aria-label="Previous member"
+            >
+              ‹
+            </button>
+            <button
+              class="carousel-arrow"
+              type="button"
+              data-carousel-next
+              aria-label="Next member"
+            >
+              ›
+            </button>
+          </div>
         </div>
+
+        <div class="carousel-viewport" data-carousel-viewport>
+          <ol class="carousel-track" data-carousel-track>
+            <li class="carousel-item">
+              <article
+                class="member-card contact-member-card"
+                data-carousel-card
+              >
+                <div class="profile-avatar avatar-a" aria-hidden="true">SI</div>
+                <p class="contact-role">Group Leader & Coordinator</p>
+                <h3>Shuraim Issaka</h3>
+                <ul class="member-details">
+                  <li><span>Student ID</span> 2425404260</li>
+                  <li><span>Email</span> issakashuraim@gmail.com</li>
+                  <li><span>Phone</span> +233 598 494 617</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="carousel-item">
+              <article
+                class="member-card contact-member-card"
+                data-carousel-card
+              >
+                <div class="profile-avatar avatar-b" aria-hidden="true">BM</div>
+                <p class="contact-role">GitHub Repository Manager</p>
+                <h3>Bayuo Ngmen-Namaal Martin</h3>
+                <ul class="member-details">
+                  <li><span>Student ID</span> 2425400440</li>
+                  <li><span>Email</span> bayuo.martin@group03.edu</li>
+                  <li><span>Phone</span> +233 500 000 002</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="carousel-item">
+              <article
+                class="member-card contact-member-card"
+                data-carousel-card
+              >
+                <div class="profile-avatar avatar-c" aria-hidden="true">KE</div>
+                <p class="contact-role">Frontend Developer</p>
+                <h3>Kuuchi Emmanuel</h3>
+                <ul class="member-details">
+                  <li><span>Student ID</span> 2425404657</li>
+                  <li><span>Email</span> kuuchi.emmanuel@group03.edu</li>
+                  <li><span>Phone</span> +233 500 000 003</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="carousel-item">
+              <article
+                class="member-card contact-member-card"
+                data-carousel-card
+              >
+                <div class="profile-avatar avatar-d" aria-hidden="true">AC</div>
+                <p class="contact-role">Frontend Developer</p>
+                <h3>Abgesi Carlos Seyram</h3>
+                <ul class="member-details">
+                  <li><span>Student ID</span> 2425401959</li>
+                  <li><span>Email</span> seyramagbesi91@gmail.com</li>
+                  <li><span>Phone</span> +233 599 242 152</li>
+                </ul>
+              </article>
+            </li>
+
+            <li class="carousel-item">
+              <article
+                class="member-card contact-member-card"
+                data-carousel-card
+              >
+                <div class="profile-avatar avatar-e" aria-hidden="true">JA</div>
+                <p class="contact-role">Frontend Developer & Designer</p>
+                <h3>John Attigaku</h3>
+                <ul class="member-details">
+                  <li><span>Student ID</span> 2425404682</li>
+                  <li><span>Email</span> john.attigaku@group03.edu</li>
+                  <li><span>Phone</span> +233 500 000 005</li>
+                </ul>
+              </article>
+            </li>
+          </ol>
+        </div>
+
+        <div
+          class="carousel-dots"
+          data-carousel-dots
+          aria-label="Carousel pagination"
+        ></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>Course: Cloud Computing Practical Lab 1</div>
+        <div>Group: Cloud Computing Group 3</div>
+        <div>© 2026</div>
       </div>
+    </footer>
 
-      <div class="carousel-viewport" data-carousel-viewport>
-        <ol class="carousel-track" data-carousel-track>
-          <li class="carousel-item">
-            <article class="member-card contact-member-card" data-carousel-card>
-              <div class="profile-avatar avatar-a" aria-hidden="true">SI</div>
-              <p class="contact-role">Group Leader & Coordinator</p>
-              <h3>Shuraim Issaka</h3>
-              <ul class="member-details">
-                <li><span>Student ID</span> 2425404260</li>
-                <li><span>Email</span> issakashuraim@gmail.com</li>
-                <li><span>Phone</span> +233 598 494 617</li>
-              </ul>
-            </article>
-          </li>
-
-          <li class="carousel-item">
-            <article class="member-card contact-member-card" data-carousel-card>
-              <div class="profile-avatar avatar-b" aria-hidden="true">BM</div>
-              <p class="contact-role">GitHub Repository Manager</p>
-              <h3>Bayuo Ngmen-Namaal Martin</h3>
-              <ul class="member-details">
-                <li><span>Student ID</span> 2425400440</li>
-                <li><span>Email</span> bayuo.martin@group03.edu</li>
-                <li><span>Phone</span> +233 500 000 002</li>
-              </ul>
-            </article>
-          </li>
-
-          <li class="carousel-item">
-            <article class="member-card contact-member-card" data-carousel-card>
-              <div class="profile-avatar avatar-c" aria-hidden="true">KE</div>
-              <p class="contact-role">Frontend Developer</p>
-              <h3>Kuuchi Emmanuel</h3>
-              <ul class="member-details">
-                <li><span>Student ID</span> 2425404657</li>
-                <li><span>Email</span> kuuchi.emmanuel@group03.edu</li>
-                <li><span>Phone</span> +233 500 000 003</li>
-              </ul>
-            </article>
-          </li>
-
-          <li class="carousel-item">
-            <article class="member-card contact-member-card" data-carousel-card>
-              <div class="profile-avatar avatar-d" aria-hidden="true">AC</div>
-              <p class="contact-role">Frontend Developer</p>
-              <h3>Abgesi Carlos Seyram</h3>
-              <ul class="member-details">
-                <li><span>Student ID</span> 2425401959</li>
-                <li><span>Email</span> abgesi.seyram@group03.edu</li>
-                <li><span>Phone</span> +233 500 000 004</li>
-              </ul>
-            </article>
-          </li>
-
-          <li class="carousel-item">
-            <article class="member-card contact-member-card" data-carousel-card>
-              <div class="profile-avatar avatar-e" aria-hidden="true">JA</div>
-              <p class="contact-role">Frontend Developer & Designer</p>
-              <h3>John Attigaku</h3>
-              <ul class="member-details">
-                <li><span>Student ID</span> 2425404682</li>
-                <li><span>Email</span> john.attigaku@group03.edu</li>
-                <li><span>Phone</span> +233 500 000 005</li>
-              </ul>
-            </article>
-          </li>
-        </ol>
-      </div>
-
-      <div class="carousel-dots" data-carousel-dots aria-label="Carousel pagination"></div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>Course: Cloud Computing Practical Lab 1</div>
-      <div>Group: Cloud Computing Group 3</div>
-      <div>© 2026</div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>

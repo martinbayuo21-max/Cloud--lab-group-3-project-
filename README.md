@@ -34,7 +34,7 @@ cloud-lab-group-project/
 | Name | Role |
 |------|------|
 | Shuraim Issaka | Group Leader |
-| Member 2 | Repository Manager |
+| Bayuo Martin | Repository Manager |
 | Member 3 | Home Page Developer |
 | Member 4 | About Page Developer |
 | Member 5 | Contact Page Developer & Designer |

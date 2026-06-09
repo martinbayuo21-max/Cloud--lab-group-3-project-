@@ -38,7 +38,7 @@ cloud-lab-group-project/
 | -------------------- | --------------------------------- |
 | Shuraim Issaka       | Group Leader                      |
 | Member 2             | Repository Manager                |
-| Member 3             | Home Page Developer               |
+| John Attigaku           | Home Page Developer               |
 | Agbesi Seyram Carlos | About Page Developer              |
 | Member 5             | Contact Page Developer & Designer |
 

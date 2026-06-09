@@ -21,16 +21,12 @@ This project was developed as part of the Cloud Computing course assignment. The
 
 ## Project Structure
 cloud-lab-group-project/
-|
 ├── index.html
 ├── about.html
 ├── contact.html
 ├── style.css
 ├── script.js
-├── README.md
-│
 └── images/
-└── logo.png
 
 
 ## Group Members

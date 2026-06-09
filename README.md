@@ -34,13 +34,13 @@ cloud-lab-group-project/
 
 ## Group Members
 
-| Name                 | Role                              |
-| -------------------- | --------------------------------- |
-| Shuraim Issaka       | Group Leader                      |
-| Member 2             | Repository Manager                |
-| Member 3             | Home Page Developer               |
-| Agbesi Seyram Agbesi | About Page Developer              |
-| Member 5             | Contact Page Developer & Designer |
+| Name           | Role                              |
+| -------------- | --------------------------------- |
+| Shuraim Issaka | Group Leader                      |
+| Member 2       | Repository Manager                |
+| Member 3       | Home Page Developer               |
+| Member 4       | About Page Developer              |
+| Member 5       | Contact Page Developer & Designer |
 
 ## Objectives
 

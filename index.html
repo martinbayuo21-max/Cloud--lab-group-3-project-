@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cloud Computing | Group 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Cloud Lab</div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Group 3 Cloud Computing</h1>
+          <p class="lead">A collaborative baseline for Practical Lab 1: Git/GitHub workflow, shared code, and coordinated deployments.</p>
+          <p>
+            <a class="btn" href="about.html">Meet the Team</a>
+            <a class="btn ghost" href="contact.html">Get in Touch</a>
+          </p>
+        </div>
+
+        <figure class="hero-image" role="img" aria-label="Tech banner">
+          <img src="images/group3.png" alt="Tech banner placeholder — cloud infrastructure" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="project-info container">
+      <h2>Project Overview</h2>
+      <p>This static site is the foundational Git/GitHub collaboration baseline for Practical Lab 1. It demonstrates semantic HTML, responsive layout, and the shared project scaffold for the Cloud Computing Group 3 members.</p>
+      <ul class="quick-features">
+        <li>Mobile-first responsive design</li>
+        <li>Semantic HTML5 layout</li>
+        <li>Modern CSS variables and accessible UI</li>
+        <li>Team collaboration & Git-ready structure</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>Course: Introduction to Cloud Computing</div>
+      <div>Group: 3</div>
+      <div>© 2026</div>
+    </div>
+  </footer>
+
+  <script>
+    // Active nav + mobile toggle
+    (function () {
+      const links = document.querySelectorAll('.nav-link');
+      const path = location.pathname.split('/').pop() || 'index.html';
+      links.forEach(a => {
+        if (a.getAttribute('href') === path) a.classList.add('active');
+      });
+
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.querySelector('.main-nav');
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+    })();
+  </script>
+</body>
+</html>

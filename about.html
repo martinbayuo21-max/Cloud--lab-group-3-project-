@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Cloud Computing Group 3</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Group 3 <span class="muted">/ Cloud Lab</span></div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container about-intro">
+      <h1>About Our Group</h1>
+      <p class="lead">We are a student-led team focused on collaborative cloud engineering, infrastructure-as-code, and modern web practices.</p>
+    </section>
+
+    <section class="container members team-hierarchy">
+      <h2>Team Members</h2>
+      <div class="member-leader">
+        <article class="member-card">
+          <div class="member-avatar">
+            <img src="images/shuraim.png" alt="Shuraim Issaka" />
+          </div>
+          <h3>Shuraim Issaka</h3>
+          <h3>Index No: 2425404260</h3>
+          <p class="role">Group Leader & Coordinator</p>
+        </article>
+      </div>
+
+      <div class="member-branches">
+        <article class="member-card">
+          <div class="member-avatar">
+            <img src="images/martin.png" alt="Team member photo placeholder" />
+          </div>
+          <h3>Bayuo Ngmen-Namaal Martin</h3>
+          <h3>Index No: 2425400440</h3>
+          <p class="role">GitHub Repository Manager</p>
+        </article>
+
+        <article class="member-card">
+          <div class="member-avatar">
+            <img src="images/manuel.png" alt="Team member photo placeholder" />
+          </div>
+          <h3>Kuuchi Emmanuel</h3>
+          <h3>Index No: 2425404657</h3>
+          <p class="role">Frontend Developer (Home Page)</p>
+        </article>
+
+        <article class="member-card">
+          <div class="member-avatar">
+            <img src="images/ChatGPT%20Image%20Jun%209,%202026,%2011_43_26%20AM.png" alt="Team member photo placeholder" />
+          </div>
+          <h3>Abgesi Carlos Seyram</h3>
+          <h3>Index No: 2425401959</h3>
+          <p class="role">Frontend Developer (About Page)</p>
+        </article>
+
+        <article class="member-card">
+          <div class="member-avatar">
+            <img src="images/ChatGPT%20Image%20Jun%209,%202026,%2011_43_26%20AM.png" alt="Team member photo placeholder" />
+          </div>
+          <h3>John Attigaku</h3>
+          <h3>Index No: 2425404682</h3>
+          <p class="role">Frontend Developer & Designer (Contact Page + CSS)</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>Course: Cloud Computing Practical Lab 1</div>
+      <div>Group: Cloud Computing Group 3</div>
+      <div>© 2026</div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const links = document.querySelectorAll('.nav-link');
+      const path = location.pathname.split('/').pop() || 'index.html';
+      links.forEach(a => {
+        if (a.getAttribute('href') === path) a.classList.add('active');
+      });
+
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.querySelector('.main-nav');
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        nav.classList.toggle('open');
+      });
+    })();
+  </script>
+</body>
+</html>

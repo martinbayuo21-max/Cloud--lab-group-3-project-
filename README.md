@@ -12,7 +12,6 @@ This project was developed as part of the Cloud Computing course assignment. The
 - Responsive Design
 - Member Profile Cards
 - Navigation Menu
-- Cloud-Themed User Interface
 
 ## Technologies Used
 
@@ -38,7 +37,7 @@ cloud-lab-group-project/
 | -------------------- | --------------------------------- |
 | Shuraim Issaka       | Group Leader                      |
 | Bayuo Martin Ngmen-namaal             | Repository Manager                |
-| Member 3         | Home Page Developer               |
+| Kuuchi Emmanuel        | Home Page Developer               |
 | Agbesi Seyram Carlos | About Page Developer              |
 | John Attigaku            | Contact Page Developer & Designer |
 
@@ -57,7 +56,7 @@ The website is deployed using GitHub Pages.
 
 ### Live Website
 
-Add your GitHub Pages URL here after deployment:
+GitHub Pages URL here after deployment: https://martinbayuo21-max.github.io/Cloud--lab-group-3-project-/
 
 ## Repository
 

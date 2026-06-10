@@ -37,7 +37,7 @@ cloud-lab-group-project/
 | Name                 | Role                              |
 | -------------------- | --------------------------------- |
 | Shuraim Issaka       | Group Leader                      |
-| Member 2             | Repository Manager                |
+| Bayuo Martin Ngmen-namaal             | Repository Manager                |
 | Member 3         | Home Page Developer               |
 | Agbesi Seyram Carlos | About Page Developer              |
 | John Attigaku            | Contact Page Developer & Designer |
